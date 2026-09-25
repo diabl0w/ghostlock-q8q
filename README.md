@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repo is no longer maintained. Check out [my updated method diabl0w/DFRoot](https://github.com/diabl0w/DFRoot) which is much more stable, doesn't require Shizuku, and works across a wider range of kernels/firmwares/devices
+
 # GhostLock (CVE-2026-43499) for Galaxy Z Fold 8 Ultra (q8q)
 Most of this code is based on [@polygraphene's](https://github.com/polygraphene/CyberMeowfia) fork of the [original](https://github.com/NebuSec/CyberMeowfia). 
 Heavy modifications were required for the q8q target because the main primer used (`select()`) for most published variants of the exploit does not properly align with the `rt_mutex_waiter` struct on q8q. `io_submit()` is used instead. 
